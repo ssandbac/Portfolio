@@ -74,9 +74,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.aboutMe > image {
-  display: inline-block;
-}
 
 .background {
   border-style: solid;
@@ -89,6 +86,10 @@ footer {
   transform: rotate(0deg);
   box-shadow: 10px 10px 5px var(--popColorTwo);
   margin: 20px;
+}
+.portrait {
+  display: flex;
+  text-align: center;
 }
 
 .projects {
